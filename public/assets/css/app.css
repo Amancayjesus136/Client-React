@@ -38,6 +38,7 @@ File: Main Css File
   src: local("hkgrotesk bold"), url("../fonts/hkgrotesk-bold.woff") format("woff");
   font-weight: 700;
 }
+
 :root {
   --vz-vertical-menu-bg: #fff;
   --vz-vertical-menu-item-color: #6d7080;

@@ -41,7 +41,7 @@ const Login = () => {
                                         <form action="index.html">
 
                                             <div className="mb-3">
-                                                <label htmlFor="username" className="form-label">Username</label>
+                                                <label htmlFor="username" className="form-label" style={{ marginRight: '300px' }}>Username</label>
                                                 <input type="text" className="form-control" id="username" placeholder="Enter username" />
                                             </div>
 
@@ -49,7 +49,7 @@ const Login = () => {
                                                 <div className="float-end">
                                                     <a href="auth-pass-reset-basic.html" className="text-muted">Forgot password?</a>
                                                 </div>
-                                                <label className="form-label" htmlFor="password-input">Password</label>
+                                                <label className="form-label" htmlFor="password-input" style={{ marginRight: '200px' }}>Password</label>
                                                 <div className="position-relative auth-pass-inputgroup mb-3">
                                                     <input type="password" className="form-control pe-5 password-input" placeholder="Enter password" id="password-input" />
                                                     <button className="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon" type="button" id="password-addon"><i className="ri-eye-fill align-middle"></i></button>
@@ -70,10 +70,10 @@ const Login = () => {
                                                     <h5 className="fs-13 mb-4 title">Sign In with</h5>
                                                 </div>
                                                 <div>
-                                                    <button type="button" className="btn btn-primary btn-icon waves-effect waves-light"><i className="ri-facebook-fill fs-16"></i></button>
-                                                    <button type="button" className="btn btn-danger btn-icon waves-effect waves-light"><i className="ri-google-fill fs-16"></i></button>
-                                                    <button type="button" className="btn btn-dark btn-icon waves-effect waves-light"><i className="ri-github-fill fs-16"></i></button>
-                                                    <button type="button" className="btn btn-info btn-icon waves-effect waves-light"><i className="ri-twitter-fill fs-16"></i></button>
+                                                    <button type="button" className="btn btn-primary btn-icon waves-effect waves-light" style={{ marginRight: '5px' }}><i className="ri-facebook-fill fs-16"></i></button>
+                                                    <button type="button" className="btn btn-danger btn-icon waves-effect waves-light" style={{ marginRight: '5px' }}><i className="ri-google-fill fs-16"></i></button>
+                                                    <button type="button" className="btn btn-dark btn-icon waves-effect waves-light" style={{ marginRight: '5px' }}><i className="ri-github-fill fs-16"></i></button>
+                                                    <button type="button" className="btn btn-info btn-icon waves-effect waves-light" style={{ marginRight: '5px' }}><i className="ri-twitter-fill fs-16"></i></button>
                                                 </div>
                                             </div>
                                         </form>
